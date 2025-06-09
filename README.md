@@ -41,7 +41,7 @@ source venv/bin/activate  # or `venv\Scripts\activate` on Windows
 ```
 3. Configure .env
 Create a .env file in the root directory with the following:
-
+```
 OLLAMA_BASE_URL=http://localhost:11434
 DEFAULT_MODEL=smollm2:latest
 ARABIC_MODEL=prakasharyan/qwen-arabic:latest
@@ -51,7 +51,7 @@ SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_KEY=your-supabase-service-role-key
 USE_NGROK=true
 NGROK_AUTHTOKEN=your-ngrok-token
-
+```
 
 🧪 Running the Server
 bash
