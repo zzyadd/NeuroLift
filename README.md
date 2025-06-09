@@ -54,11 +54,9 @@ NGROK_AUTHTOKEN=your-ngrok-token
 ```
 
 🧪 Running the Server
-bash
-Copy
-Edit
+```bash
 python server.py
-
+```
 📌 Notes
 Embeddings and model inference are performed locally using CPU or CUDA.
 
